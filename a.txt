@@ -1,0 +1,87 @@
+1.What are the common built-in data types in Python?
+Immutable data types:
+Number
+String
+Tuple
+Mutable data types:
+List
+Dictionary
+set
+
+2.What are local variables and global variables in Python?
+Local variable: Any variable declared inside a function is known as Local variable
+Global Variable: Any variable declared outside the function is known as Global variable
+
+3.What does [::-1] do?
+[::-1] ,this is an example of slice notation and helps to reverse the sequence with the help of indexing
+
+4.What are Python packages?
+A Python package refers to the collection of different sub-packages and modules based on the similarities of the function.
+
+5.What are decorators in Python?
+In Python, decorators are necessary functions that help add functionality to an existing function without changing the structure of the function at all. These are represented by @decorator_name in Python and are called in a bottom-up format
+
+6. How does break, continue, and pass work?
+Python break: This statement helps terminate the loop or the statement and pass the control to the next statement.
+Python continue: This statement helps force the execution of the next iteration when a specific condition meets, instead of terminating it.
+Python pass: This statement helps write the code syntactically and wants to skip the execution. It is also considered a null operation as nothing happens when you execute the pass statement.
+
+7.How to comment with multiple lines in Python?
+To add a multiple lines comment in python, all the line should be prefixed by #.
+
+8.What type of language is python? Programming or scripting?
+Generally, Python is an all purpose Programming Language ,in addition to that Python is also Capable to perform scripting.
+
+9.Explain split(), sub(), subn() methods of “re” module in Python?
+split(): This method is used to split a given string into a list.
+sub(): This method is used to find a substring where a regex pattern matches, and then it replaces the matched substring with a different string.
+subn(): This method is similar to the sub() method, but it returns the new string, along with the number of replacements.
+
+10.What is a map function in Python?
+The map() function in Python has two parameters, function and iterable. The map() function takes a function as an argument and then applies that function to all the elements of an iterable, passed to it as another argument. It returns an object list of results.
+
+11.What are the generators in python?
+Generator refers to the function that returns an iterable set of items.
+
+12.What are python iterators?
+These are the certain objects that are easily traversed and iterated when needed.
+
+13.Do we need to declare variables with data types in Python?
+No. Python is a dynamically typed language, I.E., Python Interpreter automatically identifies the data type of a variable based on the type of value assigned to the variable.
+
+14.Explain the use of the 'with' statement and its syntax?
+In Python, using the ‘with’ statement, we can open a file and close it as soon as the block of code, where ‘with’ is used, exits. In this way, we can opt for not using the close() method.
+
+15.Write a command to open the file c:\hello.txt for writing?
+Command:
+f= open(“hello.txt”, “wt”)
+
+16.What does len() do?
+len() is an inbuilt function used to calculate the length of sequences like list, python string, and array.
+
+my _list=[1,2,3,4,5]
+len(my_list)
+
+17.What does *args and **kwargs mean?
+.*args: It is used to pass multiple arguments in a function.
+**kwargs: It is used to pass multiple keyworded arguments in a function in python.
+
+18.How will you remove duplicate elements from a list?
+To remove duplicate elements from the list we use the set() function.
+
+Consider the below example:
+
+demo_list=[5,4,4,6,8,12,12,1,5]
+ unique_list = list(set(demo_list))
+output:[1,5,6,8,12]
+
+19.How can files be deleted in Python?
+You need to import the OS Module and use os.remove() function for deleting a file in python.
+consider the code below:
+
+import os
+os.remove("file_name.txt")
+
+20.What is the lambda function in Python?
+A lambda function is an anonymous function (a function that does not have a name) in Python. To define anonymous functions, we use the ‘lambda’ keyword instead of the ‘def’ keyword, hence the name ‘lambda function’. Lambda functions can have any number of arguments but only one statement.
+
